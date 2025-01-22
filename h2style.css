@@ -22,14 +22,16 @@ div {
 
   .div2{
     position: absolute;
-    right: 0;
-    margin-right: 12vw;
+    top:10vh;
+    left:20vw;
+    
     
   }
 
   .div3{
     position: absolute;
     right: 0;
+    top:20vh
   }
 
   
