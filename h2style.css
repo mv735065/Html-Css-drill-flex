@@ -6,29 +6,17 @@
   color: yellow;
 }
 
-.div1 {
-  width: 40vw;
-  height: 40vh;
-  background-color: black;
-  border: 1px solid blue;
-  /* display: inline-block; */
-  border: 2px solid red;
-}
+.box1{
 
-.div1 {
-  margin: 0 auto;
-  margin-top: 1vh;
-  position: relative;
-}
-
-.div2 {
-  width: 20vw;
   height: 20vh;
-  background-color: black;
-  border: 1px solid blue;
-  /* display: inline-block; */
+  width: 20vw;
   border: 2px solid red;
-  position: absolute;
-  top: 25%;
-  left: 25%;
+  background-color: black;
+  color: yellow;
+}
+
+#div2{
+  position: relative;
+  bottom: 10vh;
+  left: 10vw;
 }
