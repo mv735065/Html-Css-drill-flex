@@ -9,9 +9,6 @@
   color: yellow;
 } 
 
-
-
-
   #box{
     height: 50vh;
     width: 50vw;
@@ -24,20 +21,23 @@
 
   #div2{
     position: absolute;
-    top:10vh;
-    left:20vw;
+    bottom: 0;
+    left: 0;
   }
 
   #div1{
+    width: 30vh;
+    height: 30vh;
     position: absolute;
-    right: 0;
-    top:0;
+    right: 0px;
+    bottom: 0px;
+    
   }
 
   #div3{
     position:absolute;
-    left: 0;
-    top:20vh;
+    top:0;
+    right: 0;
   }
 
 
