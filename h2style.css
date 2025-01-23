@@ -2,8 +2,8 @@
 
 .box1{
 
-  height: 10vh;
-  width: 10vw;
+  height: 50%;
+  width: 50%;
   border: 2px solid red;
   background-color: black;
   color: yellow;
@@ -22,23 +22,21 @@
   #div2{
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
   }
 
   #div1{
-    width: 30vh;
-    height: 30vh;
+    
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+   
     
   }
 
-  #div3{
+  /* #div3{
     position:absolute;
     top:0;
     right: 0;
-  }
+  } */
 
 
 
