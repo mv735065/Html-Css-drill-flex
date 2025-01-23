@@ -16,28 +16,30 @@
     background-color: white;
     color: yellow;
    
-    
+    position: relative;
   }
 
   #div2{
     position: absolute;
-    top: 0;
-    left: 30%;
-
+    left: 10%;
+    top:30%
   }
 
   #div1{
-    
-     position: relative;
+     
+     position: absolute;
      width:70% ;
-     height: 70%;
+     height: 50%;
+  top:10%;
+  left: 15%;
+
     
   }
 
   #div3{
     position:absolute;
-    bottom: 0;
-    left: 30%;
+    right: 10%;
+    top:30%
   }
 
 
