@@ -14,14 +14,13 @@
   
   
 }
-body{
-  display: flex;
-}
+
 
 .div1 {
   width: 30vw;
   height: 50vh;
   background-color: black;
+  position: relative;
  
 }
 
@@ -29,14 +28,17 @@ body{
   width: 20vw;
   height: 30vh;
   color: white;
-  position: relative;
-  right: 50%;
- 
+  position: absolute;
+  bottom: 0;
+  right:-10vw;
   
 }
 
 .div3{
   background-color: black;
   color: white;
+  position: absolute;
+  bottom: -10vh;
+  right: 0;
  
 }
