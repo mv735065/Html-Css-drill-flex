@@ -39,7 +39,6 @@
   font-weight: bold;
   background-color: white;
   border-radius: 1rem;
-  /* box-shadow: 0 0 4px 4px rgb(224, 211, 211); */
 }
 
 .item {
@@ -85,7 +84,6 @@
 
 .learnmore {
   border: 2px solid rgb(199, 198, 196);
-  /* background-color: rgb(153, 44, 255); */
   background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
   border-radius: 1rem;
@@ -93,7 +91,6 @@
 }
 
 .option:hover {
-  /* background-color:hsl(233, 13%, 49%) */
   background: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   color: white;
   box-shadow: 0 4px 8px rgb(107, 96, 96);
@@ -102,7 +99,6 @@
 
 .option:hover .learnmore {
   background: white;
-  /* color: rgb(153, 44, 255); */
   color: hsl(237, 63%, 64%);
 }
 
@@ -115,15 +111,12 @@
     flex-direction: row;
     justify-content: center;
     column-gap: 2rem;
-    /* border: 1px solid red; */
     padding: 1rem 2rem;
 
     width: 80%;
   }
 
   #layout {
-    /* width: 90vw; */
-    /* margin: 1rem auto; */
     height: 100vh;
   }
 
@@ -133,10 +126,6 @@
 }
 
 @media (min-width: 600px) and (max-width: 1439px) {
-  /* #layout {
-    width: 90vw;
-    margin: 1rem auto;
-  } */
 
   .option {
     display: flex;
