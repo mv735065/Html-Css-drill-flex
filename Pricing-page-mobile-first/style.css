@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(246, 247, 255);
+  row-gap: 2rem;
+  padding: 3rem 0;
+  color: rgba(49, 42, 42, 0.808);
+  margin: 0 auto;
+}
+
+#heading {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: stretch;
+  width: 90%;
+  row-gap: 2rem;
+}
+
+.option {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.item {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.progrm {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.cost {
+  border-bottom: 2px solid rgb(199, 198, 196);
+  color: black;
+}
+
+.dollar {
+  font-size: 2.5rem;
+}
+
+.prcie {
+  font-size: 4rem;
+}
+
+.storage {
+  border-bottom: 2px solid rgb(199, 198, 196);
+}
+
+.users {
+  border-bottom: 2px solid rgb(199, 198, 196);
+}
+.sendupto {
+  border-bottom: 2px solid rgb(199, 198, 196);
+}
+.learnmore {
+  border: 2px solid rgb(199, 198, 196);
+  background-color: rgb(153, 44, 255);
+  border-radius: 1rem;
+  color: white;
+}
+
+.option:hover {
+  background-color: rgba(169, 78, 255, 0.808);
+  color: white;
+  box-shadow: 0 4px 8px rgb(107, 96, 96);
+  transform: scale(1.05);
+}
+
+.option:hover .learnmore {
+  background-color: white;
+  color: rgba(169, 78, 255, 0.808);
+}
+
+.option:hover .cost {
+  color: white;
+}
+@media (min-width:800px)  {
+    #plan{
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+        border: 1px solid red;
+        padding: 1rem 2rem;
+        overflow:hidden;
+        width: auto;
+    }
+
+   #layout{
+    width: 80vw;
+   }
+
+
+    
+}
+
